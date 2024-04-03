@@ -1,0 +1,16 @@
+import Card from "./Card";
+
+const Services = () => {
+    return(
+        <div className="flex flex-col items-center gap-10 mt-[100px] pb-[100px]">
+            <h3 className="text-5xl lg:text-6xl font-semibold py-20 bg-custom text-center leading-relaxed">Poznaj nasze usługi</h3>
+            <div className="flex flex-col lg:flex-row gap-12 lg:gap-[120px]">
+                <Card text="Bezinwazyjne naprawy obiektów" link="/bezinwazyjne-naprawy-obiektow" />
+                <Card text="Iniekcje budowlane" link="/iniekcje-budowlane" />
+                <Card text="Stabilizacja gruntu" link="/stabilizacja-gruntu" />
+            </div>
+        </div>
+    )
+}
+
+export default Services;

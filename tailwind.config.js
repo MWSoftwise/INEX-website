@@ -7,10 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundImage: theme => ({
+        'custom': 'radial-gradient(46.02% 48.08% at 49.93% 46.48%, #0D3748 0%, #002 100%);',
+        'glass': 'linear-gradient(90deg, rgba(120, 134, 139, 0.50) 0%, rgba(13, 55, 72, 0.50) 100%);',
+        'menu': 'linear-gradient(90deg, #002 0%, #0D3748 100%);',
+        'transparent': 'linear-gradient(90deg, rgba(120, 134, 139, 0) 0%, rgba(13, 55, 72, 0) 100%);',
+        'footer': 'linear-gradient(43deg, #0D3748 5.34%, #002 54.58%)',
+      }),
+      boxShadow: {
+        'btn': '0px 0px 15px 1px rgba(75, 89, 106, 1)',
       },
     },
   },
