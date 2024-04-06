@@ -14,3 +14,89 @@ body {
   align-items: center;
   box-sizing: border-box;
 }
+
+.heroleft{
+  animation: heroleft 7s infinite;
+}
+.heroright{
+  animation: heroright 7s infinite;
+}
+.herotop{
+  animation: herotop 7s infinite;
+}
+
+@keyframes heroleft{
+  0%{
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  15%{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  80%{
+    transform: translate(0%);
+    opacity: 1;
+  }
+  95%{
+    transform: translate(0%);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0%);
+    opacity: 0;
+  }
+}
+@keyframes heroright{
+  0%{
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  16%{
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  31%{
+    transform: translate(0%);
+    opacity: 1;
+  }
+  80%{
+    transform: translate(0%);
+    opacity: 1;
+  }
+  95%{
+    transform: translate(0%);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0%);
+    opacity: 0;
+  }
+}
+
+@keyframes herotop{
+  0%{
+    transform: translate(-50%, -65%);
+    opacity: 0;
+  }
+  32%{
+    transform: translate(-50%, -65%);
+    opacity: 0;
+  }
+  48%{
+    transform: translate(-50%, 0%);
+    opacity: 1;
+  }
+  80%{
+    transform: translate(-50%, 0%);
+    opacity: 1;
+  }
+  95%{
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+}
