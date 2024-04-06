@@ -12,7 +12,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return(
-        <div className="w-full relative flex flex-col items-center justify-end gap-16 pb-14 pt-[150px] px-[15px] mt-[100px] lg:mt-[200px] bg-footer">
+        <div className="w-full relative flex flex-col items-center justify-end gap-16 pb-14 pt-[150px] px-[15px] pl-[20px] lg:pl-[15px] mt-[100px] lg:mt-[200px] bg-footer">
             <span className="absolute top-0 left-[50%] translate-x-[-50%] w-[100vw] h-[1px] bg-[#4B596A]"></span>
             <div className="w-full flex flex-col lg:flex-row items-center lg:items-start lg:justify-center gap-16 lg:gap-12 xl:gap-24 2xl:gap-40">
                 <Image src={Logo} alt="Logo" />
