@@ -4,7 +4,7 @@ import Link from "next/link";
 const PostCard = ({title, desc, photoLink, articleLink, index}) => {
     if (index === 0) {
         return (
-            <div className="w-[350px] lg:w-full min-h-[510px] lg:min-h-[400px] flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-20 bg-glass p-6 rounded-[10px]">
+            <div className="w-[330px] lg:w-full min-h-[510px] lg:min-h-[400px] flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-20 bg-glass p-6 rounded-[10px]">
                 <Image src={photoLink} width={300} height={300} alt="Zdjęcie wykonania usługi metodą iniekcji" className="h-[250px] object-cover" />
                 <div className="flex flex-col gap-6 lg:max-w-[50%]">
                     <h2 className="text-[28px] font-semibold">{title}</h2>
@@ -15,7 +15,7 @@ const PostCard = ({title, desc, photoLink, articleLink, index}) => {
         );
     } else {
         return(
-            <div className="w-[350px] min-h-[510px] flex flex-col items-start gap-8 bg-glass p-6 rounded-[10px]">
+            <div className="w-[330px] min-h-[510px] flex flex-col items-start gap-8 bg-glass p-6 rounded-[10px]">
                 <Image src={photoLink} width={300} height={300} alt="Zdjęcie wykonania usługi metodą iniekcji" className="h-[250px] object-cover" />
                 <div className="flex flex-col gap-2">
                     <h2 className="text-[28px] font-semibold">{title}</h2>

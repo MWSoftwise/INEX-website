@@ -31,10 +31,10 @@ const Navbar = () => {
                 <li className="scale-100 transition-all hover:scale-105"><Link className="text-xl lg:text-[24px] py-1 cursor-pointer p-2" href="/#about" onClick={handleLinkClick}>O nas</Link></li>
                 <li className="scale-100 transition-all hover:scale-105"><Link className="text-xl lg:text-[24px] py-1 cursor-pointer" href="/realizacje" onClick={handleLinkClick}>Realizacje</Link></li>
                 <li className="scale-100 transition-all hover:scale-105"><Link className="text-xl lg:text-[24px] py-1 cursor-pointer" href="/kontakt" onClick={handleLinkClick}>Kontakt</Link></li>
-                <li className="flex gap-x-8 mt-6 lg:mt-0">
-                    <Link href="#"><Image src={Fb} className="w-[22px] lg:w-[27px] cursor-pointer" alt="Ikona Facebook" /></Link>
-                    <Link href="#"><Image src={Ig} className="w-[25px] lg:w-[30px] cursor-pointer" alt="Ikona Instagram" /></Link>
-                    <Link href="#"><Image src={Tiktok} className="w-[19px] lg:w-[24px] cursor-pointer" alt="Ikona Tiktok" /></Link>
+                <li className="flex w-[100px] items-center justify-around mt-6 lg:mt-0">
+                    <Link href="https://www.facebook.com/profile.php?id=61558042463636" target="_blank"><Image src={Fb} className="w-[22px] lg:w-[27px] cursor-pointer" alt="Ikona Facebook" /></Link>
+                    <Link href="https://www.instagram.com/inex_uszczelnienia/" target="_blank"><Image src={Ig} className="w-[25px] lg:w-[30px] cursor-pointer" alt="Ikona Instagram" /></Link>
+
                 </li>
             </ul>
 

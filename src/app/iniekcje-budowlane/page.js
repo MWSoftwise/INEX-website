@@ -3,6 +3,7 @@ import MethodBack from "../components/MethodBack";
 import Navbar from "../components/Navbar";
 import Pustki from "../../../public/assets/wypelnianie-pustek.webp";
 import Footer from "../components/Footer";
+import MethodWithoutImg from "../components/MethodWithoutImg";
 
 export default function Iniections() {
     return (
@@ -14,8 +15,10 @@ export default function Iniections() {
                     <p className="text-2xl text-center font-light lg:font-medium leading-10">Specjalizujemy się w iniekcjach budowlanych. Jest to nowoczesna technologia która pozwola uszczelnić i zabezpieczyć obiekty bez ingerencji w konstrukcje budynku. Nasze doświadczenie obejmuje remonty budynków przemysłowych i mieszkalnych, gdzie dbamy o solidność i bezpieczeństwo konstrukcji.</p>
                 </div>
             </div>
-            <Method img={Pustki} title="Wypełnianie pustek w przegrodach budowlanych" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper urna et nulla mattis semper. Integer nisl eros, pulvinar vitae purus a, elementum ullamcorper nunc. Integer pretium, mauris in rutrum tempus, erat ligula suscipit enim, et sodales tortor dui quis justo. Phasellus a ipsum nunc." />
-            <MethodBack img={Pustki} title="Wypełnianie pustek w przegrodach budowlanych" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper urna et nulla mattis semper. Integer nisl eros, pulvinar vitae purus a, elementum ullamcorper nunc. Integer pretium, mauris in rutrum tempus, erat ligula suscipit enim, et sodales tortor dui quis justo. Phasellus a ipsum nunc." />
+            <MethodWithoutImg title="Iniekcje uszczelniające" text="Stosowane są do eliminacji nieszczelności w murach, fundamentach, ścianach szczelinowych lub innych elementach konstrukcyjnych. Polegają na wstrzykiwaniu specjalnych materiałów uszczelniających, takich jak żywice epoksydowe lub poliuretanowe, w miejsca, gdzie występują wycieki wody." />
+            <MethodWithoutImg direction="flex-col lg:flex-row-reverse" title="Iniekcje wodochronne" text="Polegają na wstrzykiwaniu specjalnych materiałów uszczelniających do szczelin, pęknięć lub otworów w konstrukcji w celu zabezpieczenia przed wodą. Materiały te mogą być na bazie żywic, silikonów, poliuretanów lub innych substancji o właściwościach hydroizolacyjnych. Iniekcje wodochronne tworzą wodoodporną barierę, która zapobiega przenikaniu wody do wnętrza budynku." />
+            <MethodWithoutImg title="Iniekcje przeciwwilgociowe" text="Służą do eliminowania problemów z wilgocią w murach i fundamentach poprzez wstrzykiwanie specjalnych preparatów, które penetrują materiał konstrukcyjny i tworzą hydrofobową barierę, ograniczającą wchłanianie wilgoci. Te preparaty mogą być na bazie krzemianów, krzemionek lub innych substancji o właściwościach hydrofobowych. Iniekcje przeciwwilgociowe zmniejszają wilgotność materiałów budowlanych, co może przyczynić się do zwiększenia trwałości i wytrzymałości konstrukcji." />
+            <MethodWithoutImg direction="flex-col lg:flex-row-reverse" title="Uszczelnienie gruntu" text="Proces ten ma na celu zapobieganie przenikaniu wody lub substancji przez grunt poprzez tworzenie barier przeciwwodnych" />
             <Footer />
         </>
     );
