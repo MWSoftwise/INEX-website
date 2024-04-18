@@ -2,6 +2,7 @@ import Method from "../components/Method";
 import Navbar from "../components/Navbar";
 import Stabilizacja from "../../../public/assets/stabilizacja.webp";
 import Footer from "../components/Footer";
+import CookieConsent from "../components/CookieConsent";
 
 export default function GroundStabilization() {
     return (
@@ -15,6 +16,7 @@ export default function GroundStabilization() {
             </div>
             <Method img={Stabilizacja} alt="Grfika stabilizacji gruntu" title="Stabilizowanie gruntu metodą iniekcji" text="Stabilizacja gruntu za pomocą metody iniekcji jest procesem, w którym specjalne substancje lub mieszanki są wstrzykiwane do gruntu w celu zmiany jego właściwości mechanicznych i inżynieryjnych. Ta technika jest powszechnie stosowana w budownictwie do wzmocnienia gruntu, podnoszenia nośności oraz stabilizacji konstrukcji na niestabilnym podłożu" />
             <Footer />
+            <CookieConsent />
         </>
     );
   }

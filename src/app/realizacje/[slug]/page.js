@@ -5,6 +5,7 @@ import Image from "next/image";
 import Test from "../../../../public/assets/stabilizacja.webp";
 import Link from "next/link";
 import fetchBlogs from "@/app/helpers/fetch-blogs";
+import CookieConsent from "@/app/components/CookieConsent";
 
 const SinglePost = async (props) => {
 
@@ -44,6 +45,7 @@ const SinglePost = async (props) => {
                 </div>
             </div>
             <Footer />
+            <CookieConsent />
         </>
     );
   }

@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Envelop from "../../../public/assets/envelop.svg";
 import Phone from "../../../public/assets/phone.svg";
 import Location from "../../../public/assets/location.svg";
+import CookieConsent from "../components/CookieConsent";
 
 export default function Contact() {
     return (
@@ -26,6 +27,7 @@ export default function Contact() {
                 </div>
             </div>
             <Footer />
+            <CookieConsent />
         </>
     );
   }

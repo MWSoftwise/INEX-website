@@ -1,4 +1,5 @@
 'use client';
+import CookieConsent from "../components/CookieConsent";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import PostCard from "../components/PostCard";
@@ -40,6 +41,7 @@ const Projects = async () => {
           </div>
       </div>
       <Footer />
+      <CookieConsent />
     </>
   );
 }

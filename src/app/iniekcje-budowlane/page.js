@@ -1,9 +1,7 @@
-import Method from "../components/Method";
-import MethodBack from "../components/MethodBack";
 import Navbar from "../components/Navbar";
-import Pustki from "../../../public/assets/wypelnianie-pustek.webp";
 import Footer from "../components/Footer";
 import MethodWithoutImg from "../components/MethodWithoutImg";
+import CookieConsent from "../components/CookieConsent";
 
 export default function Iniections() {
     return (
@@ -20,6 +18,7 @@ export default function Iniections() {
             <MethodWithoutImg title="Iniekcje przeciwwilgociowe" text="Służą do eliminowania problemów z wilgocią w murach i fundamentach poprzez wstrzykiwanie specjalnych preparatów, które penetrują materiał konstrukcyjny i tworzą hydrofobową barierę, ograniczającą wchłanianie wilgoci. Te preparaty mogą być na bazie krzemianów, krzemionek lub innych substancji o właściwościach hydrofobowych. Iniekcje przeciwwilgociowe zmniejszają wilgotność materiałów budowlanych, co może przyczynić się do zwiększenia trwałości i wytrzymałości konstrukcji." />
             <MethodWithoutImg direction="flex-col lg:flex-row-reverse" title="Uszczelnienie gruntu" text="Proces ten ma na celu zapobieganie przenikaniu wody lub substancji przez grunt poprzez tworzenie barier przeciwwodnych" />
             <Footer />
+            <CookieConsent />
         </>
     );
   }
