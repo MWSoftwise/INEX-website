@@ -34,8 +34,8 @@ const Projects = async () => {
 
           <div className="w-full flex flex-wrap items-center justify-center lg:justify-between gap-10">
 
-              {projects.map((project, index) => (
-                  <PostCard index={index} key={project.slug} title={project.title} desc={project.description} photoLink={project.thumbnail.url} articleLink={project.slug} />
+              {projects.map((project) => (
+                  <PostCard key={project.slug} title={project.title} desc={project.description} photoLink={project.thumbnail.url} articleLink={project.slug} />
               ))}
           </div>
       </div>
